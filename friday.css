@@ -1,0 +1,31 @@
+h2 {
+  color: red;
+  font-size: xx-large;
+  background-image: linear-gradient(blue, rgb(0, 0, 0), rgb(0, 255, 115));
+  padding: 10px;
+  text-align: center;
+  letter-spacing: 30px;
+  border: 10px dotted blue;
+  border-radius: 4pc;
+  animation: nam 10s ease-in-out 1s;
+}
+@keyframes nam {
+  0% {
+    margin-left: 0px;
+  }
+  20% {
+    display: none;
+  }
+  40%{
+    width: 100vw;
+  }
+  60%{
+    color: black;
+  }
+  80%{
+    letter-spacing: 0px;
+  }
+  100% {
+    margin-left: 70pc;
+  }
+}
